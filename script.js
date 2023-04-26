@@ -2,11 +2,11 @@ const moreStaffCard = document.querySelector('#listed-more-staff');
 const moreBtn = document.querySelector('#moreBtn');
 
 moreBtn.addEventListener('click', () => {
-  if (moreBtn.textContent == 'See Less'){
+  if (moreBtn.textContent === 'See Less') {
     moreStaffCard.classList.toggle('active');
     moreBtn.classList.toggle('active');
     moreBtn.textContent = 'See More';
-  }else{
+  } else {
     moreStaffCard.classList.toggle('active');
     moreBtn.classList.toggle('active');
     moreBtn.textContent = 'See Less';
@@ -15,10 +15,9 @@ moreBtn.addEventListener('click', () => {
 
 const navLink = document.querySelector('#menu-mobile');
 const hamburgerBtn = document.querySelector('#hamburger-btn');
-const closeBtn = document.querySelector('#close-btn')
+const closeBtn = document.querySelector('#close-btn');
 const navbar = document.querySelector('#navbar');
 const header = document.querySelector('header');
-
 
 hamburgerBtn.addEventListener('click', () => {
   const linkText = document.querySelectorAll('nav > ul > li > a');
@@ -31,7 +30,7 @@ hamburgerBtn.addEventListener('click', () => {
 
   navbar.classList.add('navbar');
   header.classList.add('header-mobile');
-  closeBtn.style.display ='flex';
+  closeBtn.style.display = 'flex';
   closeBtn.style.justifyContent = 'flex-start';
   navLink.style.display = 'flex';
   navLink.style.gap = '30px';
