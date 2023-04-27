@@ -57,9 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Porfolio] <a name="about-project"></a>
+# 📖 [web development Course Project] <a name="about-project"></a>
 
-**[Portfolio]**
+**[Web development Course Project]**
   The "Online Web Development Courses" project is a website that offers high-quality web development courses. It includes a Home page with a navigation menu, hero section, course list, our team and Curriculum, and an About page with information about the the courses and Our latest students projects done sections, The website also features a dynamically generated "Our Team" section using JavaScript. It has a responsive layout and follows coding best practices, ensuring it is accessible and user-friendly.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -112,6 +112,8 @@ After you're finished please remove all the comments and instructions!
 
  <p><a href="https://zbahati.github.io/web-development-course/">Online Web development Demo </a></p>
 
+ <p><a href="https://www.loom.com/share/82c4ab60f3e44957b7ff351bfa7c1742">Use this Demo Video to introducing the project in General</a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -133,7 +135,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 - cd my-folder
-- git clone git@github.com:zbahati/portfolio.git
+- git clone https://github.com/zbahati/web-development-course.git
 
 
 ### Install
